@@ -15,6 +15,7 @@ router.get('/service',index.service);
 
 router.get('/team',index.team);
 
+
 router.get('/testimonial',index.testimonial);
 
 
