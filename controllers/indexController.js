@@ -1,0 +1,29 @@
+module.exports = {
+    index: (req,res,next)=>{
+        res.render('index.ejs')
+    },
+    about:(req,res)=>{
+        res.render('about.ejs')
+    },
+    appointment:(req,res)=>{
+        res.render('appointment.ejs')
+    },
+    contact:(req,res)=>{
+        res.render('contact.ejs')
+    },
+    feature:(req,res)=>{
+        res.render('feature.ejs')
+    },
+    service:(req,res)=>{
+        res.render('service.ejs')
+    },
+    team:(req,res)=>{
+        res.render('team.ejs')
+    },
+    testimonial:(req,res)=>{
+        res.render('testimonial.ejs')
+    },
+    statusErro:(req,res,next)=>{
+        res.render('404.ejs')
+    }
+}
