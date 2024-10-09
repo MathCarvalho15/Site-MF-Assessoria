@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0463FA;
+    --primary: #076e1d;
     --light: #EFF5FF;
     --dark: #1B2C51;
 }
@@ -102,7 +102,15 @@
 .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
 }
-
+.icon{
+    display: inline;
+     width: 50px; 
+     height: 50px; 
+     margin: 5px;
+}
+.titles{
+    color: #025e02;
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
@@ -181,7 +189,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #ffffff;
     background: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 45px;
@@ -240,9 +248,9 @@
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+/* .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
-}
+} */
 
 
 /*** Service ***/
@@ -338,7 +346,10 @@
     color: #FFFFFF;
     background: var(--primary);
 }
-
+.imgTeam{
+    width: 216px;
+    height: 316px;
+}
 
 /*** Appointment ***/
 .bootstrap-datetimepicker-widget.bottom {
@@ -369,7 +380,7 @@
 
 
 /*** Testimonial ***/
-.testimonial-carousel::before {
+/* .testimonial-carousel::before {
     position: absolute;
     content: "";
     top: 0;
@@ -377,8 +388,9 @@
     height: 100%;
     width: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.2;
     z-index: 1;
-}
+} */
 
 .testimonial-carousel::after {
     position: absolute;
