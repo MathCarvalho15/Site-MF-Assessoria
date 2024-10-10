@@ -1,10 +1,9 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-let userRouter = require('../Projects/routers/index');
+const router = require('../Site-Regulatorio/routers/index');
 
-
-app.use('/', userRouter);
+app.use('/', router);
 
 app.use(express.json());
 
