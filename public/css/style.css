@@ -309,6 +309,8 @@
     position: relative;
     top: 0;
     transition: .5s;
+    width: 216px;
+    height: 350px;
 }
 
 .team-item:hover img {
@@ -349,6 +351,10 @@
 .imgTeam{
     width: 216px;
     height: 316px;
+}
+.cardTeam{
+    justify-content: center;
+    align-items: center;
 }
 
 /*** Appointment ***/
