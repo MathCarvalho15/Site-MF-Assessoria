@@ -5,11 +5,10 @@ router.get('/',index.index);
 
 router.get('/about',index.about);
 
-router.get('/contact',index.contact);
-
 router.get('/service',index.service);
 
-router.get('/testimonial',index.testimonial);
+router.get('/feature',index.feature);
 
+router.get('/contact',index.contact);
 
 module.exports = router;
