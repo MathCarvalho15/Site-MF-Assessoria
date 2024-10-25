@@ -88,7 +88,8 @@
             <a href="/feature" class="nav-item nav-link">Regulatório</a>
             <a href="/contact" class="nav-item nav-link">Contato</a>
         </div>
-        <a href="https://wa.me/5511988494342?text=%F0%9F%8C%9F%20Bem-vindo(a)%20%C3%A0%20M%26F%20Assessoria!%20%F0%9F%8C%9F%0A%0AEstamos%20aqui%20para%20oferecer%20suporte%20especializado%20em%20assuntos%20regulat%C3%B3rios%20de%20farm%C3%A1cias%20e%20drogarias%2C%20garantindo%20que%20voc%C3%AA%20esteja%20sempre%20em%20conformidade%20com%20as%20normas%20do%20setor.%0A%0AConfira%20nossas%20op%C3%A7%C3%B5es%20de%20servi%C3%A7os%3A%0A%0A1-Assuntos%20Regulat%C3%B3rios%0A2-Cursos%20de%20Regulat%C3%B3rio%0A3-Abertura%20de%20Drogaria%0A4-Cl%C3%ADnicas%20de%20Est%C3%A9tica%20e%20Distribuidoras%0A5-Outros%0A%0ASe%20precisar%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20algum%20desses%20temas%2C%20n%C3%A3o%20hesite%20em%20nos%20chamar!" class="btn btn-success text-white rounded-0 py-4 px-lg-5 d-none d-lg-block">Atendimento<i class="fa fa-arrow-right ms-3"></i></a>
+        <a href="https://wa.me/5511988494342?text=%F0%9F%8C%9F%20Bem-vindo(a)%20%C3%A0%20M%26F%20Assessoria!%20%F0%9F%8C%9F%0A%0AEstamos%20aqui%20para%20oferecer%20suporte%20especializado%20em%20assuntos%20regulat%C3%B3rios%20de%20farm%C3%A1cias%20e%20drogarias%2C%20garantindo%20que%20voc%C3%AA%20esteja%20sempre%20em%20conformidade%20com%20as%20normas%20do%20setor.%0A%0AConfira%20nossas%20op%C3%A7%C3%B5es%20de%20servi%C3%A7os%3A%0A%0A1-Assuntos%20Regulat%C3%B3rios%0A2-Cursos%20de%20Regulat%C3%B3rio%0A3-Abertura%20de%20Drogaria%0A4-Cl%C3%ADnicas%20de%20Est%C3%A9tica%20e%20Distribuidoras%0A5-Outros%0A%0ASe%20precisar%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20algum%20desses%20temas%2C%20n%C3%A3o%20hesite%20em%20nos%20chamar!" class="btn btn-success text-white rounded-0 py-4 px-lg-5 d-none d-lg-block" target="_blank">Atendimento<i class="fa fa-arrow-right ms-3"></i></a>
+
     </div>
 </nav>
 <!-- Navbar End -->
@@ -104,8 +105,9 @@
 
 
     <!-- Contact Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
+    <form action="https://formsubmit.co/ad5f9e3a489082fdcaed2b8cee4c2ae7" method="post">
+        <div class="container-xxl py-5">
+            <div class="container">
             <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="h-100 bg-light rounded d-flex align-items-center p-5">
@@ -144,25 +146,37 @@
                     <div class="bg-light rounded p-5">
                         <p class="d-inline-block border rounded-pill py-1 px-4">Antedimento direcionado</p>
                         <h1 class="mb-4 text-success">Qual serviço você precisa? Por Favor entre em contato!</h1>
-                        <p class="mb-4 text-success">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.</p>
+                        <p class="mb-4 text-success">Estamos com total disponiblidade de realizar os atendimentos.</p>
                         <form>
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
                                         <label for="name">Seu nome completo</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
                                         <label for="email">Seu E-mail</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your Phone">
+                                        <label for="phone">Seu Whatssap</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Serviço</label>
+                                        <select type="text" class="form-control" id="subject" placeholder="Subject" for="subject" name="Serviço" id="">
+                                            <option >Escolha o Serviço...</option>
+                                            <option name="assuntosRegulatorio" id="assuntosRegulatorio">Assuntos Regulatórios</option>
+                                            <option name="curso" id="curso">Cursos de Regulário</option>
+                                            <option name="drogaria" id="drogaria">Abertura de Drogaria</option>
+                                            <option name="clinicasDistribuidora" id="clinicasDistribuidora">Clinicas de Estática e Distribuidoras</option>
+                                            <option name="outros" id="outros">Outros</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -172,6 +186,9 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
+                                    <input type="hidden" name="_subject" value="Atendimento Recebido">
+                                    <input type="hidden" name="_honey" style="display: none;">
+                                    <input type="hidden" name="_captcha" value="false">
                                     <button class="btn btn-success w-100 py-3" type="submit">Enviar</button>
                                 </div>
                             </div>
@@ -186,6 +203,7 @@
             </div>
         </div>
     </div>
+</form>
     <!-- Contact End -->
 
 
@@ -249,7 +267,7 @@
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a class="border-bottom" href="#">Feito por Matheus David de Carvalho</a>, Totalmente
-                        exclusivo e direitos de copyright.
+                        exclusivo e sem direitos de copyright.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->

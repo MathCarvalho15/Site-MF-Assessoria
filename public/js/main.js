@@ -96,3 +96,9 @@
     
 })(jQuery);
 
+const home = 'https://localhost:3000';
+
+function openNewTab(url) {
+    const win = window.open(url, '_blank')
+    win.focus()
+}
