@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const router = require('../Site-Regulatorio/routers/index');
+const router = require('../app/routers/index');
 
 app.use('/', router);
 
@@ -12,6 +12,6 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.set('views', './views'); // A pasta onde estão seus arquivos EJS
 
-app.listen(3000, () => {
-    console.log('Servidor rodando na porta 3000!');
+app.listen(3080, () => {
+    console.log('Servidor rodando na porta 3080!');
 });
