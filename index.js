@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const router = require('../Site-Regulatorio/routers/index');
+const router = require('../app/routers/index');
 
 app.use('/', router);
 
