@@ -3,12 +3,12 @@ const index = require('../controllers/indexController');
 
 router.get('/',index.index);
 
-router.get('/about',index.about);
+router.get('/sobre',index.about);
 
-router.get('/service',index.service);
+router.get('/serivo',index.service);
 
-router.get('/feature',index.feature);
+router.get('/regulatorio',index.feature);
 
-router.get('/contact',index.contact);
+router.get('/contato',index.contact);
 
 module.exports = router;
