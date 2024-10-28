@@ -5,7 +5,7 @@ router.get('/',index.index);
 
 router.get('/sobre',index.about);
 
-router.get('/serivo',index.service);
+router.get('/servico',index.service);
 
 router.get('/regulatorio',index.feature);
 
