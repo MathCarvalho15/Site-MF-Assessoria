@@ -13,5 +13,5 @@ app.set('view engine', 'ejs');
 app.set('views', './views'); // A pasta onde estão seus arquivos EJS
 
 app.listen(3000, () => {
-    console.log('Servidor rodando na porta 3080!');
+    console.log('Servidor rodando na porta 3000!');
 });
